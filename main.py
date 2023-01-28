@@ -1,4 +1,8 @@
-print("first commit");
+def isNameDias(name):
+    if name == "Dias":
+        print("Yeah, u r right")
+    else:
+        print("Nonnonononon")
 
-
-print("and second commit")
+#Write your name
+isNameDias(input("Input your name: "))
