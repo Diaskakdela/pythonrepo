@@ -1,4 +1,9 @@
+import random
+
+
 def firstTask(a, b):
+    print("a = " + str(a))
+    print("b = " + str(b))
     for x in range(a, b+1):
         print(x)
 
@@ -16,4 +21,4 @@ def thirdTask(a, b):
     for x in range(a, b-1, -2):
         print(x)
 
-thirdTask(18, 9)
+firstTask(random.randint(0, 10), random.randint(10, 20));
